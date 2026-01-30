@@ -31,7 +31,7 @@ presence:
     - name: "{avgRating} ⭐ rating"
       type: 3
   interval: 20
-  status: invisible
+  status: online
 stats: false
 templates:
   transcript: transcript.md
