@@ -41,14 +41,14 @@ services:
       ENCRYPTION_KEY: ${ENCRYPTION_KEY} # required
       DB_PROVIDER: ${DB_PROVIDER}
       HTTP_EXTERNAL: ${HTTP_EXTERNAL} # change this to your server's external IP (or domain)
-      HTTP_HOST: 0.0.0.0
-      HTTP_INTERNAL:
-      HTTP_PORT: 8169
+      HTTP_HOST: ${HTTP_HOST}
+      HTTP_INTERNAL: ${HTTP_INTERNAL}
+      HTTP_PORT: ${HTTP_PORT}
       HTTP_TRUST_PROXY: "${HTTP_TRUST_PROXY}" # set to true if you're using a reverse proxy
       INVALIDATE_TOKENS:
       OVERRIDE_ARCHIVE: null
-      PUBLIC_BOT: "false"
-      PUBLISH_COMMANDS: "false"
+      PUBLIC_BOT: "${PUBLIC_BOT}"
+      PUBLISH_COMMANDS: "${PUBLISH_COMMANDS}"
       SUPER: ${SUPER} # optionally add `,youruseridhere`
 
 networks:
