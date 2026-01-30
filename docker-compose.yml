@@ -27,6 +27,7 @@ services:
       - 8169:8169
     volumes:
       - tickets-bot:/home/container/user
+      - ./config.yml:/home/container/user/config.yml
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     tty: true
