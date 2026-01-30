@@ -22,16 +22,12 @@ logs:
   level: info
 presence:
   activities:
-    - name: /new
-    - name: with {totalTickets} tickets
-    - name: "{openTickets} tickets"
-      type: 3
     - name: "{avgResponseTime} response time"
       type: 3
-    - name: "{avgRating} ⭐ rating"
+    - name: "DM to open a Ticket"
       type: 3
   interval: 20
-  status: online
+  status: offline
 stats: true
 templates:
   transcript: transcript.md
