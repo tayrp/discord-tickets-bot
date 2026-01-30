@@ -22,13 +22,10 @@ logs:
   level: info
 presence:
   activities:
-    - name: "{avgResponseTime} response time"
-      type: 3
-    - name: "DM to open a Ticket"
-      type: 3
+    - name: DM to create a ticket
   interval: 20
   status: online
-stats: true
+stats: false
 templates:
   transcript: transcript.md
 updates: true
