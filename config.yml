@@ -22,7 +22,7 @@ logs:
   level: info
 presence:
   activities:
-    - name: DM to create a ticket!
+    - name: DM to create a ticket! | /new
   interval: 20
   status: online
 stats: false
