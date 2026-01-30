@@ -27,7 +27,7 @@ presence:
     - name: "DM to open a Ticket"
       type: 3
   interval: 20
-  status: offline
+  status: online
 stats: true
 templates:
   transcript: transcript.md
